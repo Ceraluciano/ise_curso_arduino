@@ -53,11 +53,7 @@ void loop()
     int distancia = lectura_ultrasonido();
     Serial.println(distancia);
      
-    if ( distancia >= 100){
-      Serial.print("avanzaaaaaaaa\n");
-      avanzar();
-    }
-    else if (distancia >= 50 && distancia <= 100){
+    i&& distancia <= 100){
       Serial.print("izquierdaaaaaaaa");
       izquierda();
     }
